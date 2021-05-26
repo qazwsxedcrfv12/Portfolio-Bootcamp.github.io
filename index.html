@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PortFolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <!-- <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+        integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-secondary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Abhishek Kumar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#skills">My Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#works">My Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact Me</a>
+                    </li>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-5">
+        <section id="hero" class="d-flex justify-content-sm-center 
+        justify-content-sm-evenly   align-items-center flex-column-reverse gap-5 flex-md-row">
+            <!-- Hero -->
+            <div
+                class="mt-5 d-flex justify-content-sm-center align-items-center flex-column flex-md-column justify-content-md-start align-items-md-start">
+                <h5>Hi! &nbsp;<img src="https://webemoji.org/assets/img/emoji/1f917.png" alt="" width="50"></h5>
+                <h1>I am Abhishek Kumar</h1>
+                <p>Programmer | Developer | Artist</p>
+                <button id="btn" class="btn btn-warning p-md-2 btn-sm">My cool resume</button>
+            </div>
+            <div class="mt-5 d-md-none w-50 w-50">
+                <img src="index.jpeg" alt="" class="w-75 h-75 rounded-circle shadow">
+            </div>
+            <div class="w-25 h-25 d-none d-md-block">
+                <img src="index.jpeg" alt="" class="w-75 h-75 rounded-circle shadow">
+            </div>
+        </section>
+
+
+        <section id="skills" class="mt-5  p-4 rounded">
+
+            <!-- My Skills -->
+            <h1 class="text-white text-center head">My Skill Set</h1>
+            <div class="mt-5 d-md-none d-flex justify-content-sm-evenly">
+                <i class="fab fa-html5 fa-7x" style="color:#f6601b;"></i>
+                <i class="fab fa-css3-alt fa-7x" style="color:#19b3f0;"></i>
+                <i class="fab fa-bootstrap fa-7x" style="color: #202bf3;"></i>
+                <i class="fab fa-js-square fa-7x" style="color: #f4f70d;"></i>
+                <i class="fab fa-python fa-7x"></i>
+            </div>
+            <div class="mt-5 d-none d-md-flex justify-content-sm-evenly">
+                <i class="fab fa-html5 fa-7x" style="color:#f6601b;"></i>
+                <i class="fab fa-css3-alt fa-7x" style="color:#19b3f0;"></i>
+                <i class="fab fa-bootstrap fa-7x" style="color: #202bf3;"></i>
+                <i class="fab fa-js-square fa-7x" style="color: #faf52e;"></i>
+                <i class="fab fa-python fa-7x"></i>
+            </div>
+        </section>
+
+        <hr>
+        <section id="works" class="mt-5  p-4 rounded">
+
+            <!-- My Works -->
+            <h1 class="text-white text-center head">My Work</h1>
+            <div class="d-flex flex-column flex-md-row justify-content-md-evenly gap-3">
+                <div class="card mt-3 mb-2">
+                    <img src="tech1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Portfolio Website</h5>
+                        <p class="card-text">It is my Portfolio made uisng HTML, CSS, Bootstrap containing my skills and
+                            works.</p>
+                        <a href="https://github.com/qazwsxedcrfv12/Portfolio-Bootcamp" class="btn btn-dark">View Source
+                            <i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="card mt-3 mb-2">
+                    <img src="travel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Travel Website</h5>
+                        <p class="card-text">It is simple Travelling website made uisng HTML, CSS contain login and
+                            signup page and various destinations u wanna visit.</p>
+                        <a href="https://github.com/qazwsxedcrfv12/Travel-Website" class="btn btn-dark">View Source
+                            <i class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+                <div class="card mt-3 mb-2 con">
+                    <img src="food.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Food-Ordering Website</h5>
+                        <p class="card-text">This is a static food ordering website using HTML and CSS. Concepts used
+                            are flexbox, navigation property, form, box model.</p>
+                        <a href="https://qazwsxedcrfv12.github.io/CSS-FoodWebsite/" class="btn btn-dark">View Source <i
+                                class="fab fa-github fa-2x"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <hr>
+
+        <section id="contact" class="mt-4 py-4">
+            <!-- Contact Me -->
+            <h1 class="text-white text-center head">Contact Me <i class="fas fa-phone text-warning"></i></h1>
+            <div class="row">
+                <div class="con-sm col-md-8">
+                    <form action="#">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" required class="form-control inp" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message Box</label>
+                            <textarea class="form-control inp" id="exampleFormControlTextarea1" required
+                                placeholder="Enter Your lovely message 😀😃" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="btn">Contact Now Bruuhhh!!</button>
+                    </form>
+                </div>
+                <div class="col-md-4 col-sm">
+                    <div class="mt-4 p-md-4">
+                        <h3><i class="fas fa-envelope-square text-danger hh p-md-2"></i>abhikumar@gmail.com</h3>
+                        <button type="button" class="btn btn-outline-warning">
+                            <a href="https://github.com/qazwsxedcrfv12" target="_blank"><i
+                                    class="fab fa-github fa-3x text-secondary"></i></a>
+                        </button>
+                        <button type="button" class="btn btn-outline-danger">
+                            <a href="https://www.linkedin.com/in/abhishek-kumar-426694190/" target="_blank"><i
+                                    class="fab fa-linkedin fa-3x text-primary"></i></a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
